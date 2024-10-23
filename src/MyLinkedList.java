@@ -15,6 +15,8 @@ public class MyLinkedList<E> {
 		}
 	}
 
+	public MyLinkedList() {}
+
 	public MyLinkedList(Object data) {
 		head = new Node(data);
 		numNodes++;
